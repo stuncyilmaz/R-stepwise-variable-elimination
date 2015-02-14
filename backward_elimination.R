@@ -3,8 +3,6 @@
 
 this.dir <- dirname(parent.frame(2)$ofile)
 setwd(this.dir)
-print(getwd())
-print(paste( getwd(),"/backward_elimination.R",sep='') )
 rm(list=ls())
 
 ############# get the AIC, p-1 # of variables
