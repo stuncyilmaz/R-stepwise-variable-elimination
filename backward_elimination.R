@@ -1,9 +1,6 @@
 # I chose AIC as the criterion because it panalizes overfitting with the p-parameter. It provides a good 
 # balance between overfitting and complexity, and the goodness of fit measured by MSE.
 
-this.dir <- dirname(parent.frame(2)$ofile)
-setwd(this.dir)
-rm(list=ls())
 
 ############# get the AIC, p-1 # of variables
 getAIC = function(fit){
